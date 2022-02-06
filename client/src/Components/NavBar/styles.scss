@@ -1,0 +1,21 @@
+.nav {
+    width: 250px;
+    height: calc(100vh - 100px);
+    border-right: 2px solid black;
+
+    li {
+        padding: 15px;
+        background-color: aquamarine;
+        margin: 15px;
+        border-radius: 15px;
+        list-style: none;
+        cursor: pointer;
+
+        &:active {
+            background-color: yellow;
+        }
+        &:hover {
+            background-color: aqua;
+        }
+    }
+}
