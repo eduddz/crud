@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Table } from "../Table";
 
-import "./styles.scss";
-
 export const FindByName = () => {
 
     const [name, setName] = useState('');
